@@ -6,9 +6,7 @@ Load sleep stage and event information from a Compumedics file
 
 Function Prototypes:
 
-////
-   obj = loadComumedicsAnnotations (fn)
-\\\\
+    obj = loadComumedicsAnnotations (fn)
 
 Public Properties
 
@@ -19,10 +17,9 @@ Public Properties
 
 Dependent Properties
 
-////
-      uniqueStageText: Unique stage
-     numericHypnogram: Numeric hypnogram [1:num epochs]'
-   characterHypnogram: Character hypnogram [1:num epochs]'
+    uniqueStageText: Unique stage
+      numericHypnogram: Numeric hypnogram [1:num epochs]'
+     characterHypnogram: Character hypnogram [1:num epochs]'
          normalizeHyp: hypnogram [t(0 100) stage]
            numHypDist:  Distributed numeric hypnogram [t(0-100) stage]
            xmlEntries: XMl entry types
@@ -32,11 +29,8 @@ Dependent Properties
            EventStart: Event start list
           SleepStages: List of sleep stages
           EpochLength: Epoch length 
-\\\\
  
 Public Methods
 
-////
     obj = plotHypnogram
     obj = plotHypnogramWithDist
-\\\\
